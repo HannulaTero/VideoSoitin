@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"__VideoSoitin_GPUState",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"__VideoSoitin_GPUState",
+  "parent":{
+    "name":"__Private",
+    "path":"folders/VideoSoitin/__Private.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

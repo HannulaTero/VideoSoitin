@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"VideoSoitin_CopyCropped",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"VideoSoitin_CopyCropped",
+  "parent":{
+    "name":"VideoSoitin",
+    "path":"folders/VideoSoitin.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

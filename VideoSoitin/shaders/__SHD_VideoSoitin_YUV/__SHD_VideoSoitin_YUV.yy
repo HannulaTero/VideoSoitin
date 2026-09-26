@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"__SHD_VideoSoitin_YUV",
+  "name":"__SHD_VideoSoitin_YUV",
+  "parent":{
+    "name":"__Private",
+    "path":"folders/VideoSoitin/__Private.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

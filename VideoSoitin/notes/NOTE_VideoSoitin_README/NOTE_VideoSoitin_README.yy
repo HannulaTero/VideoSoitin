@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"NOTE_VideoSoitin_README",
+  "name":"NOTE_VideoSoitin_README",
+  "parent":{
+    "name":"VideoSoitin",
+    "path":"folders/VideoSoitin.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}

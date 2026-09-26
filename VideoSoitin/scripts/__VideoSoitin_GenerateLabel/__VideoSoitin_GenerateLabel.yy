@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"__VideoSoitin_GenerateLabel",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"__VideoSoitin_GenerateLabel",
+  "parent":{
+    "name":"__Private",
+    "path":"folders/VideoSoitin/__Private.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
