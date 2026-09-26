@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"VideoSoitin_CopyCropped",
+  "%Name":"VideoSoitin_CopyCroppedResize",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"VideoSoitin_CopyCropped",
+  "name":"VideoSoitin_CopyCroppedResize",
   "parent":{
     "name":"VideoSoitin",
     "path":"folders/VideoSoitin.yy",

@@ -49,7 +49,7 @@
     {"id":{"name":"__VideoSoitin_GenerateLabel","path":"scripts/__VideoSoitin_GenerateLabel/__VideoSoitin_GenerateLabel.yy",},},
     {"id":{"name":"__VideoSoitin_GPUState","path":"scripts/__VideoSoitin_GPUState/__VideoSoitin_GPUState.yy",},},
     {"id":{"name":"__VideoSoitin","path":"scripts/__VideoSoitin/__VideoSoitin.yy",},},
-    {"id":{"name":"VideoSoitin_CopyCropped","path":"scripts/VideoSoitin_CopyCropped/VideoSoitin_CopyCropped.yy",},},
+    {"id":{"name":"VideoSoitin_CopyCroppedResize","path":"scripts/VideoSoitin_CopyCroppedResize/VideoSoitin_CopyCroppedResize.yy",},},
     {"id":{"name":"VideoSoitin_EXPORT","path":"scripts/VideoSoitin_EXPORT/VideoSoitin_EXPORT.yy",},},
     {"id":{"name":"VideoSoitin_SignatureCallback","path":"scripts/VideoSoitin_SignatureCallback/VideoSoitin_SignatureCallback.yy",},},
     {"id":{"name":"VideoSoitin","path":"scripts/VideoSoitin/VideoSoitin.yy",},},
