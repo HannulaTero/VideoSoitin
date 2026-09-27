@@ -20,6 +20,7 @@
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"license_VideoSoitin.txt","CopyToMask":-1,"filePath":"datafiles","name":"license_VideoSoitin.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"video_example.mp4","CopyToMask":-1,"filePath":"datafiles","name":"video_example.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
@@ -29,7 +30,6 @@
   },
   "name":"VideoSoitin",
   "resources":[
-    {"id":{"name":"NOTE_VideoSoitin_LICENSE","path":"notes/NOTE_VideoSoitin_LICENSE/NOTE_VideoSoitin_LICENSE.yy",},},
     {"id":{"name":"NOTE_VideoSoitin_README","path":"notes/NOTE_VideoSoitin_README/NOTE_VideoSoitin_README.yy",},},
     {"id":{"name":"__OBJ_VideoSoitin_Manager","path":"objects/__OBJ_VideoSoitin_Manager/__OBJ_VideoSoitin_Manager.yy",},},
     {"id":{"name":"OBJ_VideoSoitinExample_00_Simple","path":"objects/OBJ_VideoSoitinExample_00_Simple/OBJ_VideoSoitinExample_00_Simple.yy",},},
