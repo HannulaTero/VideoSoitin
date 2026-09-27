@@ -12,7 +12,7 @@ video_enable_loop(true);
 // You can chain up the method calls.
 // Here the surface reference is stored, so it can be used later.
 // The ownership
-self.videoSoitin = new VideoSoitin()
+self.videoListener = new VideoSoitinListener()
   .SetLabel("Video Playback")
   .SetContext(self)
   .SetOnVideoStart(function(_context)
@@ -27,3 +27,4 @@ self.videoSoitin = new VideoSoitin()
   {
     _context.surface = _playback;
   });
+  

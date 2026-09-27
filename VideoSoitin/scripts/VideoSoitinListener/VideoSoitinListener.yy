@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"VideoSoitinListener",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"VideoSoitinListener",
+  "parent":{
+    "name":"VideoSoitin",
+    "path":"folders/VideoSoitin.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -17,8 +17,8 @@
   ],
   "name":"RM_VideoSoitinExample",
   "parent":{
-    "name":"VideoSoitin x Example",
-    "path":"folders/VideoSoitin x Example.yy",
+    "name":"VideoSoitin x Examples",
+    "path":"folders/VideoSoitin x Examples.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

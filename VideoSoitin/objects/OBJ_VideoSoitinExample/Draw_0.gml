@@ -1,6 +1,6 @@
 /// @desc DRAW THE RESULT.
 
-draw_text(64, 64, "Watch example source to see how to use.");
+draw_text(64, 64, "Look the source code of example.");
 
 
 if (surface_exists(self.surface) == false)
