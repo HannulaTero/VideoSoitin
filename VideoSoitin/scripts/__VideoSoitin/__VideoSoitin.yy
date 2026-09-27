@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"__VideoSoitin",
   "parent":{
-    "name":"__Private",
-    "path":"folders/VideoSoitin/__Private.yy",
+    "name":"Managing",
+    "path":"folders/VideoSoitin/__Private/Managing.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

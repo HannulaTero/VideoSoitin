@@ -38,27 +38,7 @@ function __VideoSoitin() constructor
   
   // This is meant to keep manager alive, no matter what.
   // -> User might accidently deactivate/destroy the manager.
-  self.timeSource = call_later(time_source_units_frames, 1, function()
-  {
-    // If exists, no worries then.
-    if (instance_exists(__OBJ_VideoSoitin_Manager) == true)
-    {
-      return;
-    }
-      
-    // Try reactivating first.
-    if (instance_exists(__OBJ_VideoSoitin_Manager) == false)
-    {
-      instance_activate_object(__OBJ_VideoSoitin_Manager);
-    }
-      
-    // If failed, then create it.
-    if (instance_exists(__OBJ_VideoSoitin_Manager) == false)
-    {
-      instance_create_depth(0, 0, 0, __OBJ_VideoSoitin_Manager);
-    }
-      
-  }, true);
+  self.timeSource = call_later(time_source_units_frames, 1, __VideoSoitin_EnsureManager, true);
   
   
   #endregion

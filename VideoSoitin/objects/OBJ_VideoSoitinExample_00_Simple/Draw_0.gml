@@ -6,4 +6,4 @@ if (surface_exists(self.surface) == false)
 }
 
 
-draw_surface_stretched(self.surface, 128, 128, 640, 360);
+draw_surface_stretched(self.surface, 128, 160, 640, 360);

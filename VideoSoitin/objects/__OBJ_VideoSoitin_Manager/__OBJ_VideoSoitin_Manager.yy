@@ -10,8 +10,8 @@
   "name":"__OBJ_VideoSoitin_Manager",
   "overriddenProperties":[],
   "parent":{
-    "name":"__Private",
-    "path":"folders/VideoSoitin/__Private.yy",
+    "name":"Managing",
+    "path":"folders/VideoSoitin/__Private/Managing.yy",
   },
   "parentObjectId":null,
   "persistent":true,

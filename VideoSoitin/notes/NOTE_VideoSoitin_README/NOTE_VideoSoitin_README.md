@@ -33,9 +33,12 @@ VideoSoitin -handles supports fluent interface,
 therefore you can chain method calls to set properties.
 For example `handle.SetLabel(...).SetOnStatusPlaying(...).SetOnRemove(...)`
 
+Camera request is wrapper for waiting opening the camera (only for GX export).
+Mostly for allowing timing out request, and redoing that if required.
+
 ---
 
-### SIMPLE HOW TO USE EXAMPLE
+### HOW TO USE EXAMPLE
 
 ---
 ```gml
@@ -47,7 +50,7 @@ video_open("example.mp4");
 self.playback = undefined;
 self.surface = undefined;
 
-// Make new listener.
+// Make new video-playback listener.
 self.videoListener = new VideoSoitin()
   .SetLabel("Video Playback")
   .SetContext(self)

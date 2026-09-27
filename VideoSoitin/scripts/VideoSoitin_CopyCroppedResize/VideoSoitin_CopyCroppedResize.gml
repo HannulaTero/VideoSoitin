@@ -12,10 +12,18 @@
 * @param {Id.Surface}   _dst
 * @param {Id.Surface}   _src
 * @param {Array<Real>}  _alignment
-* @returns {Undfeined}
+* @returns {Undefined}
 */ 
 function VideoSoitin_CopyCroppedResize(_dst, _src, _alignment=[ 0.5, 0.5 ])
 {
+  // Sanity checks.
+  if (surface_exists(_dst) == false)
+  || (surface_exists(_src) == false)
+  {
+    return undefined;
+  }
+  
+  
   // Get the destination data.
   var _dstW = surface_get_width(_dst);
   var _dstH = surface_get_height(_dst);

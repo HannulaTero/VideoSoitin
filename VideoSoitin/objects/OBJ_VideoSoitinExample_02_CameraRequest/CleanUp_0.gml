@@ -5,4 +5,10 @@ if (video_get_status() != video_status_closed)
   video_close();
 }
 
+self.cameraRequest.Remove();
 self.videoListener.Remove();
+
+if (surface_exists(self.surface) == true)
+{
+  surface_free(self.surface);
+}

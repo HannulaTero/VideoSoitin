@@ -3,8 +3,8 @@
   "%Name":"__SHD_VideoSoitin_YUV",
   "name":"__SHD_VideoSoitin_YUV",
   "parent":{
-    "name":"__Private",
-    "path":"folders/VideoSoitin/__Private.yy",
+    "name":"Utility",
+    "path":"folders/VideoSoitin/__Private/Utility.yy",
   },
   "resourceType":"GMShader",
   "resourceVersion":"2.0",

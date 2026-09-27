@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"OBJ_VideoSoitinExample_Manager",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"PAR_VideoSoitinExample",
+  "eventList":[],
   "managed":true,
-  "name":"OBJ_VideoSoitinExample_Manager",
+  "name":"PAR_VideoSoitinExample",
   "overriddenProperties":[],
   "parent":{
     "name":"VideoSoitin x Examples",

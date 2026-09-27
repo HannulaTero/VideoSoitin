@@ -117,6 +117,10 @@ function VideoSoitinListener() constructor
   array_push(_listeners, self);
   
   
+  // Ensure manager exists.
+  __VideoSoitin_EnsureManager();
+  
+  
   #endregion
   // 
   //=============================================================

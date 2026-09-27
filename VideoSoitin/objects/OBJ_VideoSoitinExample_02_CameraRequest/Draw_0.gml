@@ -3,8 +3,8 @@
 
 if (surface_exists(self.surface) == false)
 {
-  exit;
+  self.surface = surface_create(640, 360);
 }
 
 
-draw_surface_stretched(self.surface, 128, 128, 640, 360);
+draw_surface(self.surface, 128, 160);

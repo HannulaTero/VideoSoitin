@@ -6,7 +6,7 @@
   "name":"__VideoSoitinListener__SetTimeOut",
   "parent":{
     "name":"Methods x VideoSoitinListener",
-    "path":"folders/VideoSoitin/Methods x VideoSoitinListener.yy",
+    "path":"folders/VideoSoitin/__Private/Methods x VideoSoitinListener.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

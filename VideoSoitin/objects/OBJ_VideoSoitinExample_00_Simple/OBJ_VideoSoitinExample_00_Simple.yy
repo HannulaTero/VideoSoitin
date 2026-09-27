@@ -13,7 +13,10 @@
     "name":"VideoSoitin x Examples",
     "path":"folders/VideoSoitin x Examples.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"PAR_VideoSoitinExample",
+    "path":"objects/PAR_VideoSoitinExample/PAR_VideoSoitinExample.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"__VideoSoitin_Context",
+  "%Name":"__VideoSoitin_EnsureManager",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"__VideoSoitin_Context",
+  "name":"__VideoSoitin_EnsureManager",
   "parent":{
     "name":"Managing",
     "path":"folders/VideoSoitin/__Private/Managing.yy",

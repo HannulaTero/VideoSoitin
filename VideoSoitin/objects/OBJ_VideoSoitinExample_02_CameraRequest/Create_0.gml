@@ -44,6 +44,6 @@ self.videoListener = new VideoSoitinListener()
   })
   .SetOnStatusPlaying(function(_context, _playback)
   {
-    _context.surface = _playback;
+    VideoSoitin_CopyCroppedResize(_context.surface, _playback);
   });
   

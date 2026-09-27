@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"__VideoSoitin_GPUState",
   "parent":{
-    "name":"__Private",
-    "path":"folders/VideoSoitin/__Private.yy",
+    "name":"Utility",
+    "path":"folders/VideoSoitin/__Private/Utility.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

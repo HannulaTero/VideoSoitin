@@ -16,6 +16,14 @@ video_enable_loop(true);
 self.videoListener = new VideoSoitinListener()
   .SetLabel("Video Playback")
   .SetContext(self)
+  .SetOnError(function(_context, _playback)
+  {
+    show_debug_message("Error happened.");
+  })
+  .SetOnRemove(function(_context, _playback)
+  {
+    show_debug_message("Listener removed.");
+  })
   .SetOnVideoStart(function(_context)
   {
     show_debug_message("Video start.");
@@ -24,8 +32,21 @@ self.videoListener = new VideoSoitinListener()
   {
     show_debug_message("Video end.");
   })
+  .SetOnStatusClosed(function(_context, _playback)
+  {
+    show_debug_message("Status closed.");
+  })
+  .SetOnStatusPaused(function(_context, _playback)
+  {
+    show_debug_message("Status paused.");
+  })
+  .SetOnStatusPreparing(function(_context, _playback)
+  {
+    show_debug_message("Status preparing.");
+  })
   .SetOnStatusPlaying(function(_context, _playback)
   {
+    show_debug_message("Status playing.");
     _context.surface = _playback;
   });
   
