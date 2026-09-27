@@ -4,7 +4,7 @@
 /**
 * Set the Callback-function, which is called when video hase ended.
 * 
-* @context VideoSoitin
+* @context VideoSoitinListener
 * @returns {Struct.VideoSoitinListener}
 */ 
 function __VideoSoitinListener__SetOnVideoEnd(_Callback=VideoSoitin_SignatureCallback)

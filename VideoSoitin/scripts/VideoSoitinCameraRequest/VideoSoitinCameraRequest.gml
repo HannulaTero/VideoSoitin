@@ -1,29 +1,29 @@
 
 
 /**
-* Creates video playback listener -handle.
+* Wraps camera requesting in GX platform.
+* 
+* Information about constraint objects can read here: 
+* https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia#constraints
+* 
+* @param {Struct}   _contraints "Constraint object"
 */ 
-function VideoSoitinListener() constructor
+function VideoSoitinCameraRequest(_contraints) constructor
 {
   //=============================================================
   // 
   #region PUBLIC : STATIC METHODS.
   
   
-  static Remove               = __VideoSoitinListener__Remove;
-  static SetCallback          = __VideoSoitinListener__SetCallback;
-  static SetContext           = __VideoSoitinListener__SetContext;
-  static SetLabel             = __VideoSoitinListener__SetLabel;
-  static SetOnError           = __VideoSoitinListener__SetOnError;
-  static SetOnRemove          = __VideoSoitinListener__SetOnRemove;
-  static SetOnStatusClosed    = __VideoSoitinListener__SetOnStatusClosed;
-  static SetOnStatusPaused    = __VideoSoitinListener__SetOnStatusPaused;
-  static SetOnStatusPlaying   = __VideoSoitinListener__SetOnStatusPlaying;
-  static SetOnStatusPreparing = __VideoSoitinListener__SetOnStatusPreparing;
-  static SetOnTimeOut         = __VideoSoitinListener__SetOnTimeOut;
-  static SetOnVideoEnd        = __VideoSoitinListener__SetOnVideoEnd;
-  static SetOnVideoStart      = __VideoSoitinListener__SetOnVideoStart;
-  static SetTimeOut           = __VideoSoitinListener__SetTimeOut;
+  static Remove           = __VideoSoitinCameraRequest__Remove;
+  static SetCallback      = __VideoSoitinCameraRequest__SetCallback;
+  static SetContext       = __VideoSoitinCameraRequest__SetContext;
+  static SetLabel         = __VideoSoitinCameraRequest__SetLabel;
+  static SetOnRemove      = __VideoSoitinCameraRequest__SetOnRemove;
+  static SetOnTimeOut     = __VideoSoitinCameraRequest__SetOnTimeOut;
+  static SetOnVideoStart  = __VideoSoitinCameraRequest__SetOnVideoStart;
+  static SetOnVideoEnd    = __VideoSoitinCameraRequest__SetOnVideoEnd;
+  static SetTimeOut       = __VideoSoitinCameraRequest__SetTimeOut;
   
   
   #endregion
@@ -51,17 +51,17 @@ function VideoSoitinListener() constructor
   // Flag whether this has been removed already.
   // @ignore
   self.isRemoved = false;
+  
+  
+  // Video event listener.
+  // @ignore
+  self.listener = new VideoSoitinListener(); 
     
     
-  // Called whenever any other listener related callback is also called.
+  // Called either way whenever request id fires async event.
   // -> Listenere is fired before requests.
   // @ignore
   self.Callback = VideoSoitin_SignatureCallback;
-    
-    
-  // Executed whenever error is met with video playback.
-  // @ignore
-  self.OnError = VideoSoitin_SignatureCallback;
     
     
   // Executed when listener is removed.
@@ -111,10 +111,8 @@ function VideoSoitinListener() constructor
   #region PRIVATE : HANDLE CONSTRUCTING.
   
   
-  // Add self to the listeners..
-  var _context = __VideoSoitin_Context();
-  var _listeners = _context.listeners;
-  array_push(_listeners, self);
+  // Open camera feed.
+  video_open(json_stringify(_contraints));
   
   
   #endregion

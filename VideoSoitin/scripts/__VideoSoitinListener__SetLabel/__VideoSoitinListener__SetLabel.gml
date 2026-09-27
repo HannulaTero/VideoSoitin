@@ -4,7 +4,7 @@
 /**
 * Set the label.
 * 
-* @context VideoSoitin
+* @context VideoSoitinListener
 * @returns {Struct.VideoSoitinListener}
 */ 
 function __VideoSoitinListener__SetLabel(_label="")

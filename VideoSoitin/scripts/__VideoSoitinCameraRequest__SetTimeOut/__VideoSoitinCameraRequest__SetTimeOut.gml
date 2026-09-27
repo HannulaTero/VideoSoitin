@@ -5,11 +5,10 @@
 * Set the timeout period, after it will be removed.
 * Setting timeout to undefined will disable timeout.
 * 
-* @context VideoSoitinListener
-* @param {Real | Undefined} _seconds
-* @returns {Struct.VideoSoitinListener}
+* @context VideoSoitinCameraRequest
+* @returns {Undefined}
 */ 
-function __VideoSoitinListener__SetTimeOut(_seconds=undefined)
+function __VideoSoitinCameraRequest__SetTimeOut(_seconds=undefined)
 {
   if (self.timeOut != undefined)
   {

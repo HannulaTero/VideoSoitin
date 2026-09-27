@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"__VideoSoitinListener__SetOnStatusPaused",
   "parent":{
-    "name":"VideoSoitinListener Methods",
-    "path":"folders/VideoSoitin/VideoSoitinListener Methods.yy",
+    "name":"Methods x VideoSoitinListener",
+    "path":"folders/VideoSoitin/Methods x VideoSoitinListener.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

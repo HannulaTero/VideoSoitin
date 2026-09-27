@@ -4,7 +4,7 @@
 /**
 * Set the Callback-function, which is called when video-status is preparing.
 * 
-* @context VideoSoitin
+* @context VideoSoitinListener
 * @returns {Struct.VideoSoitinListener}
 */ 
 function __VideoSoitinListener__SetOnStatusPreparing(_Callback=VideoSoitin_SignatureCallback)

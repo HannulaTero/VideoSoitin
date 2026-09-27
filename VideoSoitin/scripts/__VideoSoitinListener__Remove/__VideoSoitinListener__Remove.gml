@@ -4,7 +4,7 @@
 /**
 * Removes the video playback -listener.
 * 
-* @context VideoSoitin
+* @context VideoSoitinListener
 * @returns {Undefined}
 */ 
 function __VideoSoitinListener__Remove()

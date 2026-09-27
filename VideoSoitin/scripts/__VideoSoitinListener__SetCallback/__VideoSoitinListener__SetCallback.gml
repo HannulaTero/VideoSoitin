@@ -4,7 +4,7 @@
 /**
 * Set the Callback-function.
 * 
-* @context VideoSoitin
+* @context VideoSoitinListener
 * @returns {Struct.VideoSoitinListener}
 */ 
 function __VideoSoitinListener__SetCallback(_Callback=VideoSoitin_SignatureCallback)

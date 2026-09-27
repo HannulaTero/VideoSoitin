@@ -4,7 +4,7 @@
 /**
 * Set the Callback-function, which is called when listener has been timed out.
 * 
-* @context VideoSoitin
+* @context VideoSoitinListener
 * @returns {Struct.VideoSoitinListener}
 */ 
 function __VideoSoitinListener__SetOnTimeOut(_Callback=VideoSoitin_SignatureCallback)

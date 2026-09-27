@@ -4,11 +4,11 @@
 /**
 * Set the context, which is provided as argument in the callbacks.
 * 
-* @context VideoSoitinListener
+* @context VideoSoitinCameraRequest
 * @param {Any} _context
-* @returns {Struct.VideoSoitinListener}
+* @returns {Undefined}
 */ 
-function __VideoSoitinListener__SetContext(_context={ })
+function __VideoSoitinCameraRequest__SetContext(_context)
 {
   self.context = _context;
   return self;

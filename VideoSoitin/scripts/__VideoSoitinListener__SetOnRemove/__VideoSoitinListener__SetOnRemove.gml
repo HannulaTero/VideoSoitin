@@ -2,10 +2,10 @@
 
 
 /**
-* Set the callback-function, which is called when request is removed.
-* Removal can happen by user, timing out.
+* Set the callback-function, which is called when listener is removed.
+* Removal can happen by user or timing out.
 * 
-* @context VideoSoitin
+* @context VideoSoitinListener
 * @returns {Struct.VideoSoitinListener}
 */ 
 function __VideoSoitinListener__SetOnRemove(_Callback=VideoSoitin_SignatureCallback)
