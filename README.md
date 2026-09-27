@@ -1,5 +1,6 @@
 ---
 # VIDEOSOITIN
+<img width="128" height="128" align="right" alt="icon-VideoSoitin-Prefab" src="https://github.com/user-attachments/assets/4546600d-3cb3-419c-9d44-ee210cefc31d" />
 
 #### Video playback listener.
 
