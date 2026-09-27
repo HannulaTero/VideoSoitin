@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"OBJ_VideoSoitinExample",
+  "%Name":"OBJ_VideoSoitinExample_02_CameraRequest",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"OBJ_VideoSoitinExample",
+  "name":"OBJ_VideoSoitinExample_02_CameraRequest",
   "overriddenProperties":[],
   "parent":{
     "name":"VideoSoitin x Examples",

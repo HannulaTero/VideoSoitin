@@ -9,7 +9,15 @@
 */ 
 function __VideoSoitinCameraRequest__Remove()
 {
-  // TODO
+  if (self.isRemoved == true)
+  {
+    return undefined;
+  }
+  
+  
+  self.isRemoved = true;
+  self.listener.Remove();
+  self.OnRemove(self.context, undefined);
   
   return undefined;
 }

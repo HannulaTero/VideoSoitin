@@ -5,13 +5,14 @@ self.surface = undefined;
 
 // Open the video as normally.
 video_open("video_example.mp4");
-// video_enable_loop(true);
+video_enable_loop(true);
 
 
 // Create video playback listener.
 // You can chain up the method calls.
-// Here the surface reference is stored, so it can be used later.
-// The ownership
+// Here the playback-surface reference is stored, so it can be used later.
+// The playback-surface is managed/ownership is with library 
+// -> Therefore you shouldn't try free it yourself.
 self.videoListener = new VideoSoitinListener()
   .SetLabel("Video Playback")
   .SetContext(self)

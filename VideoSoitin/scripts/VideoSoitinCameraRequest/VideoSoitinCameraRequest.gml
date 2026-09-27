@@ -16,7 +16,6 @@ function VideoSoitinCameraRequest(_contraints) constructor
   
   
   static Remove           = __VideoSoitinCameraRequest__Remove;
-  static SetCallback      = __VideoSoitinCameraRequest__SetCallback;
   static SetContext       = __VideoSoitinCameraRequest__SetContext;
   static SetLabel         = __VideoSoitinCameraRequest__SetLabel;
   static SetOnRemove      = __VideoSoitinCameraRequest__SetOnRemove;
@@ -58,35 +57,9 @@ function VideoSoitinCameraRequest(_contraints) constructor
   self.listener = new VideoSoitinListener(); 
     
     
-  // Called either way whenever request id fires async event.
-  // -> Listenere is fired before requests.
-  // @ignore
-  self.Callback = VideoSoitin_SignatureCallback;
-    
-    
   // Executed when listener is removed.
   // @ignore
   self.OnRemove = VideoSoitin_SignatureCallback;
-    
-    
-  // Executed for given video status.
-  // @ignore
-  self.OnStatusClosed = VideoSoitin_SignatureCallback;
-    
-    
-  // Executed for given video status.
-  // @ignore
-  self.OnStatusPaused = VideoSoitin_SignatureCallback;
-    
-    
-  // Executed for given video status.
-  // @ignore
-  self.OnStatusPlaying = VideoSoitin_SignatureCallback;
-    
-    
-  // Executed for given video status.
-  // @ignore
-  self.OnStatusPreparing = VideoSoitin_SignatureCallback;
     
     
   // Executed whenever video playback has timed out.
@@ -101,7 +74,7 @@ function VideoSoitinCameraRequest(_contraints) constructor
     
   // Executed for whenever video starts.
   // @ignore
-  self.OnVideoEnd = VideoSoitin_SignatureCallback;
+  self.OnVideoStart = VideoSoitin_SignatureCallback;
   
   
   #endregion
@@ -112,7 +85,29 @@ function VideoSoitinCameraRequest(_contraints) constructor
   
   
   // Open camera feed.
-  video_open(json_stringify(_contraints));
+  if (video_get_status() == video_status_closed)
+  {
+    video_open(json_stringify(_contraints));
+  }
+  else
+  {
+    show_debug_message("[VideoSoitin] Video-feed already exists.");
+  }
+  
+  
+  // Define the listener.
+  self.listener.SetLabel("Camera Request")
+    .SetContext(self)
+    .SetOnVideoEnd(function(_context) 
+    { 
+      _context.OnVideoEnd(); 
+    })
+    .SetOnVideoStart(function(_context) 
+    { 
+      _context.OnVideoStart(); 
+      _context.SetTimeOut(undefined);
+    });
+  
   
   
   #endregion

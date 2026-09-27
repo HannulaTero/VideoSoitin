@@ -1,8 +1,5 @@
 /// @desc DRAW THE RESULT.
 
-draw_text(64, 64, "Look the source code of example.");
-
-
 if (surface_exists(self.surface) == false)
 {
   exit;

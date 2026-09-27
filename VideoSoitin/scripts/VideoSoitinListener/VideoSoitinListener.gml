@@ -101,7 +101,7 @@ function VideoSoitinListener() constructor
     
   // Executed for whenever video starts.
   // @ignore
-  self.OnVideoEnd = VideoSoitin_SignatureCallback;
+  self.OnVideoStart = VideoSoitin_SignatureCallback;
   
   
   #endregion
