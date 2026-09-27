@@ -1,0 +1,149 @@
+{
+  "Version": "1.0",
+  "assets": [
+    {
+      "export": 1,
+      "name": "datafiles/license_VideoSoitin.txt"
+    },
+    {
+      "export": 1,
+      "name": "__OBJ_VideoSoitin_Manager"
+    },
+    {
+      "export": 1,
+      "name": "__VideoSoitin"
+    },
+    {
+      "export": 1,
+      "name": "__VideoSoitin_Context"
+    },
+    {
+      "export": 1,
+      "name": "__VideoSoitin_EnsureManager"
+    },
+    {
+      "export": 1,
+      "name": "__VideoSoitinCameraRequest__Remove"
+    },
+    {
+      "export": 1,
+      "name": "__VideoSoitinCameraRequest__SetContext"
+    },
+    {
+      "export": 1,
+      "name": "__VideoSoitinCameraRequest__SetLabel"
+    },
+    {
+      "export": 1,
+      "name": "__VideoSoitinCameraRequest__SetOnRemove"
+    },
+    {
+      "export": 1,
+      "name": "__VideoSoitinCameraRequest__SetOnTimeOut"
+    },
+    {
+      "export": 1,
+      "name": "__VideoSoitinCameraRequest__SetOnVideoEnd"
+    },
+    {
+      "export": 1,
+      "name": "__VideoSoitinCameraRequest__SetOnVideoStart"
+    },
+    {
+      "export": 1,
+      "name": "__VideoSoitinCameraRequest__SetTimeOut"
+    },
+    {
+      "export": 1,
+      "name": "__VideoSoitinListener__Remove"
+    },
+    {
+      "export": 1,
+      "name": "__VideoSoitinListener__SetCallback"
+    },
+    {
+      "export": 1,
+      "name": "__VideoSoitinListener__SetContext"
+    },
+    {
+      "export": 1,
+      "name": "__VideoSoitinListener__SetLabel"
+    },
+    {
+      "export": 1,
+      "name": "__VideoSoitinListener__SetOnError"
+    },
+    {
+      "export": 1,
+      "name": "__VideoSoitinListener__SetOnRemove"
+    },
+    {
+      "export": 1,
+      "name": "__VideoSoitinListener__SetOnStatusClosed"
+    },
+    {
+      "export": 1,
+      "name": "__VideoSoitinListener__SetOnStatusPaused"
+    },
+    {
+      "export": 1,
+      "name": "__VideoSoitinListener__SetOnStatusPlaying"
+    },
+    {
+      "export": 1,
+      "name": "__VideoSoitinListener__SetOnStatusPreparing"
+    },
+    {
+      "export": 1,
+      "name": "__VideoSoitinListener__SetOnTimeOut"
+    },
+    {
+      "export": 1,
+      "name": "__VideoSoitinListener__SetOnVideoEnd"
+    },
+    {
+      "export": 1,
+      "name": "__VideoSoitinListener__SetOnVideoStart"
+    },
+    {
+      "export": 1,
+      "name": "__VideoSoitinListener__SetTimeOut"
+    },
+    {
+      "export": 1,
+      "name": "__SHD_VideoSoitin_YUV"
+    },
+    {
+      "export": 1,
+      "name": "__VideoSoitin_GenerateLabel"
+    },
+    {
+      "export": 1,
+      "name": "__VideoSoitin_GPUState"
+    },
+    {
+      "export": 2,
+      "name": "NOTE_VideoSoitin_README"
+    },
+    {
+      "export": 2,
+      "name": "VideoSoitin_CopyCroppedResize"
+    },
+    {
+      "export": 1,
+      "name": "VideoSoitin_EXPORT"
+    },
+    {
+      "export": 2,
+      "name": "VideoSoitin_SignatureCallback"
+    },
+    {
+      "export": 2,
+      "name": "VideoSoitinCameraRequest"
+    },
+    {
+      "export": 2,
+      "name": "VideoSoitinListener"
+    }
+  ]
+}
