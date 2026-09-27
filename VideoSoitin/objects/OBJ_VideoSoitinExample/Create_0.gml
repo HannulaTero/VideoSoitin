@@ -5,7 +5,7 @@ self.surface = undefined;
 
 // Open the video as normally.
 video_open("video_example.mp4");
-video_enable_loop(true);
+// video_enable_loop(true);
 
 
 // Create video playback listener.
