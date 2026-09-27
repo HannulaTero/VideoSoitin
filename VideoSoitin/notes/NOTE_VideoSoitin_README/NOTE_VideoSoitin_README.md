@@ -51,7 +51,7 @@ self.playback = undefined;
 self.surface = undefined;
 
 // Make new video-playback listener.
-self.videoListener = new VideoSoitin()
+self.videoListener = new VideoSoitinListener()
   .SetLabel("Video Playback")
   .SetContext(self)
   .SetOnVideoStart(function(_context)
